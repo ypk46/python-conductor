@@ -11,6 +11,9 @@ This a simple python wrapper for Netflix Conductor task polling and task update.
 ```python
 from conductor import ConductorClient
 
+def action(task: dict):
+    # do some fancy operation
+
 client = ConductorClient("http://localhost:8080/api", 1000)
 client.start("action", action)
 ```
