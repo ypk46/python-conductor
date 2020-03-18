@@ -1,4 +1,4 @@
-# Python Conductor (Python mini client for Netflix Conductor)
+# Python Conductor (Mini client for Conductor)
 
 This a simple python wrapper for Netflix Conductor task polling and task update.
 
