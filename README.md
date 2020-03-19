@@ -17,3 +17,11 @@ def action(task: dict):
 client = ConductorClient("http://localhost:8080/api", 1000)
 client.start("action", action)
 ```
+
+## Using Conductor Manager
+
+```python
+from conductor import ConductorManager
+
+manager = ConductorManager("http://localhost:8080/api")
+```
