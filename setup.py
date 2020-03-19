@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     name="python-conductor",
     packages=["conductor"],
-    version="0.1.0",
+    version="0.2.0",
     description="A simple python wrapper for Netflix Conductor task execution",
     author="Yuyi Pacheco K.",
     author_email="yuyik46@gmail.com",
